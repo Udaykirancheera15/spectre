@@ -1,0 +1,7 @@
+defaults:
+  - dataset: local
+  - logging: default
+  - runtime: local
+  - _self_
+
+project_name: spectre

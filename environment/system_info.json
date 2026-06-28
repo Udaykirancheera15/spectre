@@ -1,0 +1,11 @@
+{
+  "conda_default_env": "spectre",
+  "conda_prefix": "/DATA/ankur_2221cs19/anaconda3/envs/spectre",
+  "git_revision": null,
+  "machine": "x86_64",
+  "platform": "Linux-5.4.0-80-generic-x86_64-with-glibc2.31",
+  "processor": "x86_64",
+  "python_executable": "/DATA/ankur_2221cs19/anaconda3/envs/spectre/bin/python",
+  "python_version": "3.11.15",
+  "spectre_version": "0.1.0.dev0"
+}

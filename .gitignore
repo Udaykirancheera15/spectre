@@ -1,0 +1,41 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Environment policy: never create local virtual environments in this project
+venv/
+.venv/
+env/
+ENV/
+
+# Runtime outputs: keep directory placeholders, ignore generated contents
+artifacts/*
+!artifacts/.gitkeep
+logs/*
+!logs/.gitkeep
+mlruns/*
+!mlruns/.gitkeep
+outputs/*
+!outputs/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Environment metadata is intentionally versioned when generated.
+# Dataset is intentionally present in this research workspace; do not add a blanket ignore here.

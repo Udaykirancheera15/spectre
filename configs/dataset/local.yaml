@@ -1,0 +1,26 @@
+root: dataset
+
+splits:
+    - train
+    - val
+    - test
+
+labels:
+    - benign
+    - malware
+
+allowed_extensions:
+    - .pcap
+    - .pcapng
+    - .cap
+
+require_non_empty: true
+
+checks:
+    compute_sha256: false
+    compute_md5: false
+    check_mime_type: false
+    check_permissions: true
+    allow_symlinks: true
+    detect_duplicate_hashes: false
+    fail_on_unknown_extensions: true
