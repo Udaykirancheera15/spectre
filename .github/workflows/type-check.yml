@@ -1,0 +1,12 @@
+# CI-readiness placeholder.
+# See docs/environment.md for the authoritative local Conda environment policy.
+name: type-check-placeholder
+
+on:
+  workflow_dispatch:
+
+jobs:
+  type-check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Run locally: conda activate spectre && python -m mypy src tests tools"

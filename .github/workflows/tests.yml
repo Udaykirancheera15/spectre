@@ -1,0 +1,12 @@
+# CI-readiness placeholder.
+# See docs/environment.md for the authoritative local Conda environment policy.
+name: tests-placeholder
+
+on:
+  workflow_dispatch:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Run locally: conda activate spectre && python -m pytest"
